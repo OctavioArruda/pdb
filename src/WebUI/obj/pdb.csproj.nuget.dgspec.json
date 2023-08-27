@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Octavio Arruda\\Documents\\repos\\pdb\\src\\WebUI\\pdb.csproj": {}
+    "c:\\Users\\Octavio Arruda\\Documents\\repos\\pdb\\src\\WebUI\\pdb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Octavio Arruda\\Documents\\repos\\pdb\\src\\WebUI\\pdb.csproj": {
+    "c:\\Users\\Octavio Arruda\\Documents\\repos\\pdb\\src\\WebUI\\pdb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Octavio Arruda\\Documents\\repos\\pdb\\src\\WebUI\\pdb.csproj",
+        "projectUniqueName": "c:\\Users\\Octavio Arruda\\Documents\\repos\\pdb\\src\\WebUI\\pdb.csproj",
         "projectName": "pdb",
-        "projectPath": "C:\\Users\\Octavio Arruda\\Documents\\repos\\pdb\\src\\WebUI\\pdb.csproj",
+        "projectPath": "c:\\Users\\Octavio Arruda\\Documents\\repos\\pdb\\src\\WebUI\\pdb.csproj",
         "packagesPath": "C:\\Users\\Octavio Arruda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Octavio Arruda\\Documents\\repos\\pdb\\src\\WebUI\\obj\\",
+        "outputPath": "c:\\Users\\Octavio Arruda\\Documents\\repos\\pdb\\src\\WebUI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Octavio Arruda\\AppData\\Roaming\\NuGet\\NuGet.Config",

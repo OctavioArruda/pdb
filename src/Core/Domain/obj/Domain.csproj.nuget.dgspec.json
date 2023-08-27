@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Octavio Arruda\\Documents\\repos\\pdb\\src\\Core\\Domain\\Domain.csproj": {}
+    "c:\\Users\\Octavio Arruda\\Documents\\repos\\pdb\\src\\Core\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Octavio Arruda\\Documents\\repos\\pdb\\src\\Core\\Domain\\Domain.csproj": {
+    "c:\\Users\\Octavio Arruda\\Documents\\repos\\pdb\\src\\Core\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Octavio Arruda\\Documents\\repos\\pdb\\src\\Core\\Domain\\Domain.csproj",
+        "projectUniqueName": "c:\\Users\\Octavio Arruda\\Documents\\repos\\pdb\\src\\Core\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Octavio Arruda\\Documents\\repos\\pdb\\src\\Core\\Domain\\Domain.csproj",
+        "projectPath": "c:\\Users\\Octavio Arruda\\Documents\\repos\\pdb\\src\\Core\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Octavio Arruda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Octavio Arruda\\Documents\\repos\\pdb\\src\\Core\\Domain\\obj\\",
+        "outputPath": "c:\\Users\\Octavio Arruda\\Documents\\repos\\pdb\\src\\Core\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Octavio Arruda\\AppData\\Roaming\\NuGet\\NuGet.Config",

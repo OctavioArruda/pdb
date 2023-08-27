@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eLMtgl1w0mP//2g9OkUu7mnr/ol4HVMgKHfnAJcnTjmBVmByBQvFyfiMtOxaS6vLY7jxa1U1LnnYefbpEBvWxg==",
+  "dgSpecHash": "KutaByqybT35tRiFWPAxplZrY7BUb/lyNprLb48UbNkrTSGY/7FPW3jGfKrZIf+J72nogkni6k2Jy8z3MewVMQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Octavio Arruda\\Documents\\repos\\pdb\\src\\Persistence\\Persistence.csproj",
+  "projectFilePath": "c:\\Users\\Octavio Arruda\\Documents\\repos\\pdb\\src\\Persistence\\Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Octavio Arruda\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Octavio Arruda\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.10\\microsoft.data.sqlite.core.7.0.10.nupkg.sha512",

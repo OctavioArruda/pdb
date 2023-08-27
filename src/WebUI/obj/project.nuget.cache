@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "F/D2CiPwtCcYJBqoVeeSLM4R/+Vv5dAHPKFulIRLPc6+SPE0ekD4DfbFYb7RP7mnMuCO1CkbV1ihGq8Dq8cSSg==",
+  "dgSpecHash": "aFrAHTMowWVZU7jj9Vya/+LtH+/WnFUdq+YIIw4pzaLwfIzMNSrAFgFq2Hmnfv5mKuJhblutBN3hyiw8XNU+eQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Octavio Arruda\\Documents\\repos\\pdb\\src\\WebUI\\pdb.csproj",
+  "projectFilePath": "c:\\Users\\Octavio Arruda\\Documents\\repos\\pdb\\src\\WebUI\\pdb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Octavio Arruda\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Octavio Arruda\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
