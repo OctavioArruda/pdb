@@ -19,7 +19,9 @@ C:\Users\Octavio Arruda\Documents\repos\pdb\src\Persistence\bin\Debug\net6.0\Per
 C:\Users\Octavio Arruda\Documents\repos\pdb\src\Persistence\bin\Debug\net6.0\Persistence.runtimeconfig.json
 C:\Users\Octavio Arruda\Documents\repos\pdb\src\Persistence\bin\Debug\net6.0\Persistence.dll
 C:\Users\Octavio Arruda\Documents\repos\pdb\src\Persistence\bin\Debug\net6.0\Persistence.pdb
+C:\Users\Octavio Arruda\Documents\repos\pdb\src\Persistence\bin\Debug\net6.0\Application.dll
 C:\Users\Octavio Arruda\Documents\repos\pdb\src\Persistence\bin\Debug\net6.0\Domain.dll
+C:\Users\Octavio Arruda\Documents\repos\pdb\src\Persistence\bin\Debug\net6.0\Application.pdb
 C:\Users\Octavio Arruda\Documents\repos\pdb\src\Persistence\bin\Debug\net6.0\Domain.pdb
 C:\Users\Octavio Arruda\Documents\repos\pdb\src\Persistence\obj\Debug\net6.0\Persistence.csproj.AssemblyReference.cache
 C:\Users\Octavio Arruda\Documents\repos\pdb\src\Persistence\obj\Debug\net6.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
