@@ -1,0 +1,94 @@
+# .NET
+*.dll
+*.exe
+*.pdb
+*.dll.config
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+
+# User-specific files
+*.suo
+*.user
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# JetBrains Rider
+.idea/
+
+# User-specific files
+*.suo
+*.user
+
+# User-specific files (MonoDevelop/Xamarin)
+*.userprefs
+
+# Xamarin Studio
+*.userprefs
+
+# Rider
+.idea/
+
+# Rider
+.idea/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code
+.vscode/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# Rider
+.idea/
+
+# User-specific files (MonoDevelop/Xamarin)
+*.userprefs
+
+# Rider
+.idea/
+
+# .NET Scaffolding
+ScaffoldingReadMe.txt
