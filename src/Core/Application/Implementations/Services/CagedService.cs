@@ -13,8 +13,8 @@ public sealed  class CagedService : ICagedService
         _cagedRepository = cagedRepository;
     }
 
-    public async Task<IEnumerable<Caged>> Get()
+    public async Task<IEnumerable<Caged>> Get(int pageNumber = 1, int pageSize = 100)
     {
-        return await _cagedRepository.Get();
+        return  await _cagedRepository.Get(pageNumber, pageSize);
     }
 }

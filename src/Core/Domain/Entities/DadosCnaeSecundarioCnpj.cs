@@ -1,24 +1,24 @@
-﻿using Newtonsoft.Json;
+﻿using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Domain.Entities;
 
 public sealed class DadosCnaeSecundarioCnpj : BaseEntity
 {
-    [JsonProperty("tipo_de_registro")]
+    [Column("tipo_de_registro")]
     public string TipoRegistro { get; set; } = string.Empty;
 
-    [JsonProperty("indicador")]
+    [Column("indicador")]
     public string Indicador { get; set; } = string.Empty;
 
-    [JsonProperty("tipo_atualizacao")]
+    [Column("tipo_atualizacao")]
     public string TipoAtualizacao { get; set; } = string.Empty;
 
-    [JsonProperty("cnpj")]
+    [Column("cnpj")]
     public string Cnpj { get; set; } = string.Empty;
 
-    [JsonProperty("cnae_secundario")]
+    [Column("cnae_secundario")]
     public string CnaeSecundario { get; set; } = string.Empty;
 
-    [JsonProperty("filler")]
+    [Column("filler")]
     public string Filler { get; set;} = string.Empty;
 }

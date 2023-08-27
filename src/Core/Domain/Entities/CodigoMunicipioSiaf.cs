@@ -1,21 +1,21 @@
-﻿using Newtonsoft.Json;
+﻿using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Domain.Entities;
 
 public sealed class CodigoMunicipioSiaf : BaseEntity
 {
-    [JsonProperty("codigo_siafi")]
+    [Column("codigo_siafi")]
     public string CodigoSiafi { get; set; } = string.Empty;
 
-    [JsonProperty("cnpj")]
+    [Column("cnpj")]
     public string Cnpj { get; set; } = string.Empty;
 
-    [JsonProperty("descricao")]
+    [Column("descricao")]
     public string Descricao { get; set; } = string.Empty;
 
-    [JsonProperty("uf")]
+    [Column("uf")]
     public string UnidadeFederativa { get; set; } = string.Empty;
 
-    [JsonProperty("codigo_ibge")]
+    [Column("codigo_ibge")]
     public string CodigoIbge { get; set; } = string.Empty;
 }

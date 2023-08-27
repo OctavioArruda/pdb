@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "R+RdTbkUj6OtUukIyYLzkNK31TS2ZSBRzwbkaAadhFtDFR+r7T07GXQU/W8hi1qSrL50OQApHkBRD655xC0sow==",
+  "dgSpecHash": "zlKM4+2UiarvqE5s5VW2Nv/oaIdx82E20cCOPwQS+eq0xCgUwVmNeLTkTWyAYleVawG/CVH1XR7mslLzrOGLeA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Octavio Arruda\\Documents\\repos\\pdb\\src\\Persistence\\Persistence.csproj",
   "expectedPackageFiles": [
@@ -24,7 +24,6 @@
     "C:\\Users\\Octavio Arruda\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
     "C:\\Users\\Octavio Arruda\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "C:\\Users\\Octavio Arruda\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
-    "C:\\Users\\Octavio Arruda\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\Octavio Arruda\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.4\\sqlitepclraw.bundle_e_sqlite3.2.1.4.nupkg.sha512",
     "C:\\Users\\Octavio Arruda\\.nuget\\packages\\sqlitepclraw.core\\2.1.4\\sqlitepclraw.core.2.1.4.nupkg.sha512",
     "C:\\Users\\Octavio Arruda\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.4\\sqlitepclraw.lib.e_sqlite3.2.1.4.nupkg.sha512",

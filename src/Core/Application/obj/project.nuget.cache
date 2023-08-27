@@ -1,11 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "SUGvL9ESe0Qj4ouqTGBGjAsluwb6nR5LfN06QAuicA0MSzV1iWVB+LzQyAMI4ovLWWd3xpzq9NxuX/OyTirgvw==",
+  "dgSpecHash": "0lSvvznOA+Br39aCcTgAJo2ur9Ephi303GdW85z7c2pfm9yGYGM9Ar/z4iExXSC3ehA5YY6Vh1WRlkMy3nQ+Ow==",
   "success": true,
   "projectFilePath": "C:\\Users\\Octavio Arruda\\Documents\\repos\\pdb\\src\\Core\\Application\\Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Octavio Arruda\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
-    "C:\\Users\\Octavio Arruda\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\Octavio Arruda\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }

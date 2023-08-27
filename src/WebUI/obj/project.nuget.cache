@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "xX6Mm9jQsf+X1YFTOkC6PRRKw7zIE8tLVUivUE6c53yEOaIXYObX2HTYpE0RxiJSLIemotYZF2JTJCBHouqdLQ==",
+  "dgSpecHash": "9QwRxJOeSmMpiIRHIZaDU2x+T9eJJbFAwULLyXmOw6a0GOfFsl+HKr7HhsTQAzJZpidkHbrA/2jFnH6DeRCk0A==",
   "success": true,
   "projectFilePath": "C:\\Users\\Octavio Arruda\\Documents\\repos\\pdb\\src\\WebUI\\pdb.csproj",
   "expectedPackageFiles": [
@@ -23,7 +23,6 @@
     "C:\\Users\\Octavio Arruda\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
     "C:\\Users\\Octavio Arruda\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "C:\\Users\\Octavio Arruda\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
-    "C:\\Users\\Octavio Arruda\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\Octavio Arruda\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.4\\sqlitepclraw.bundle_e_sqlite3.2.1.4.nupkg.sha512",
     "C:\\Users\\Octavio Arruda\\.nuget\\packages\\sqlitepclraw.core\\2.1.4\\sqlitepclraw.core.2.1.4.nupkg.sha512",
     "C:\\Users\\Octavio Arruda\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.4\\sqlitepclraw.lib.e_sqlite3.2.1.4.nupkg.sha512",

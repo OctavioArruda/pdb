@@ -15,9 +15,9 @@ public class PdbController : ControllerBase
         _cagedService = cagedService;
     }
 
-    [HttpGet(Name = "Caged")]
-    public async Task<IEnumerable<Caged>> Get()
+    [HttpGet("Caged", Name = "Get")]
+    public async Task<IEnumerable<Caged>> Get([FromQuery]int pageNumber, int pageSize)
     {
-        return await _cagedService.Get();
+        return await _cagedService.Get(pageNumber, pageSize);
     }
 }

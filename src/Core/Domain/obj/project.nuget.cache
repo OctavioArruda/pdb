@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SM0XQVDYMxkHT+SGOwTbvF8AfgZ4PBqnYeNm7X1PbUfcgOlC/OBLWOkAumjxGO8046zwlpUBpOsuEMllWvpPjg==",
+  "dgSpecHash": "xgVrvPHV6wfSPzoF43HkzkDT4Ki2elu2QlHBn6N2MSNu//wyiNt3EWgcwQVKUxOTL4dQzA2nanvIlpu7ATYtlg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Octavio Arruda\\Documents\\repos\\pdb\\src\\Core\\Domain\\Domain.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Octavio Arruda\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
