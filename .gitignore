@@ -3,6 +3,11 @@
 *.exe
 *.pdb
 *.dll.config
+**/bin/
+**/obj/
+**/Debug/
+*.sqlite
+*.vsidx
 
 # User-specific files
 *.suo
