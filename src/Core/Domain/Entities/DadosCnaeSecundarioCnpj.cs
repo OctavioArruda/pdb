@@ -2,7 +2,7 @@
 
 namespace Domain.Entities;
 
-public sealed class DadosCnpj : BaseEntity
+public sealed class DadosCnaeSecundarioCnpj : BaseEntity
 {
     [JsonProperty("tipo_de_registro")]
     public string TipoRegistro { get; set; } = string.Empty;
@@ -16,12 +16,9 @@ public sealed class DadosCnpj : BaseEntity
     [JsonProperty("cnpj")]
     public string Cnpj { get; set; } = string.Empty;
 
-    [JsonProperty("identificador_matriz_filial")]
-    public string IdentificadorMatrizFilial { get; set; } = string.Empty;
+    [JsonProperty("cnae_secundario")]
+    public string CnaeSecundario { get; set; } = string.Empty;
 
-    [JsonProperty("razao_social")]
-    public string RazaoSocial { get; set; } = string.Empty;
-
-    [JsonProperty("nome_fantasia")]
-    public string NomeFantasia { get; set; } = string.Empty;
+    [JsonProperty("filler")]
+    public string Filler { get; set;} = string.Empty;
 }

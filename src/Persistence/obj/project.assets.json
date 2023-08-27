@@ -588,6 +588,20 @@
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
       },
+      "Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Domain": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Application.dll": {}
+        }
+      },
       "Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1361,6 +1375,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Application/1.0.0": {
+      "type": "project",
+      "path": "../Core/Application/Application.csproj",
+      "msbuildProject": "../Core/Application/Application.csproj"
+    },
     "Domain/1.0.0": {
       "type": "project",
       "path": "../Core/Domain/Domain.csproj",
@@ -1369,6 +1388,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Application >= 1.0.0",
       "Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.10",
       "Microsoft.EntityFrameworkCore.Sqlite >= 7.0.10"
@@ -1380,11 +1400,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Octavio Arruda\\Documents\\repos\\pdb\\src\\Persistence\\Persistence.csproj",
+      "projectUniqueName": "C:\\Users\\Octavio Arruda\\Documents\\repos\\pdb\\src\\Persistence\\Persistence.csproj",
       "projectName": "Persistence",
-      "projectPath": "c:\\Users\\Octavio Arruda\\Documents\\repos\\pdb\\src\\Persistence\\Persistence.csproj",
+      "projectPath": "C:\\Users\\Octavio Arruda\\Documents\\repos\\pdb\\src\\Persistence\\Persistence.csproj",
       "packagesPath": "C:\\Users\\Octavio Arruda\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Octavio Arruda\\Documents\\repos\\pdb\\src\\Persistence\\obj\\",
+      "outputPath": "C:\\Users\\Octavio Arruda\\Documents\\repos\\pdb\\src\\Persistence\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Octavio Arruda\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1401,8 +1421,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "c:\\Users\\Octavio Arruda\\Documents\\repos\\pdb\\src\\Core\\Domain\\Domain.csproj": {
-              "projectPath": "c:\\Users\\Octavio Arruda\\Documents\\repos\\pdb\\src\\Core\\Domain\\Domain.csproj"
+            "C:\\Users\\Octavio Arruda\\Documents\\repos\\pdb\\src\\Core\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\Octavio Arruda\\Documents\\repos\\pdb\\src\\Core\\Application\\Application.csproj"
+            },
+            "C:\\Users\\Octavio Arruda\\Documents\\repos\\pdb\\src\\Core\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\Octavio Arruda\\Documents\\repos\\pdb\\src\\Core\\Domain\\Domain.csproj"
             }
           }
         }

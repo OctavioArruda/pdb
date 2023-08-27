@@ -2,7 +2,7 @@
 
 namespace Domain.Entities;
 
-public sealed class Secao : BaseEntity
+public class Caged : BaseEntity
 {
     [JsonProperty("cd_municipio")]
     public string CodigoMunicipio { get; set; } = string.Empty;
