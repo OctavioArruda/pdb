@@ -9,7 +9,7 @@ public sealed class PdbDatabaseContext : DbContext
     {
     }
 
-    public DbSet<Caged> Cageds { get; set; }
+    public DbSet<Caged> Caged { get; set; }
     public DbSet<Cnae> Cnaes { get; set; }
     public DbSet<CodigoMunicipioSiaf> CodigosMunicipioSiaf { get; set; }
     public DbSet<DadosCnaeSecundarioCnpj> DadosCnaeSecundarioCnpj { get; set; }

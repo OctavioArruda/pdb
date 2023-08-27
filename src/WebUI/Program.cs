@@ -1,6 +1,4 @@
-using Application.Implementations.Services;
-using Domain.Contracts.Interfaces.Repositories;
-using Domain.Contracts.Interfaces.Services;
+using Persistence.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,7 +10,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 // Services registration
-builder.Services.AddScoped<ICagedService, CagedService>();
+builder.Services.AddPersistenceServices();
 
 var app = builder.Build();
 
