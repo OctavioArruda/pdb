@@ -5,6 +5,11 @@ namespace Persistence.DatabaseContext;
 
 public sealed class PdbDatabaseContext : DbContext
 {
+    public PdbDatabaseContext()
+    {
+        
+    }
+
     public PdbDatabaseContext(DbContextOptions<PdbDatabaseContext> options) : base(options)
     {
     }
@@ -19,7 +24,7 @@ public sealed class PdbDatabaseContext : DbContext
         
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlite("Data Source=amostra100pc.sqlite");
+        //optionsBuilder.UseSqlite("Data Source=amostra100pc.sqlite");
 
         base.OnConfiguring(optionsBuilder);
     }

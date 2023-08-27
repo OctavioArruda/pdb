@@ -2,7 +2,7 @@
 
 namespace Domain.Entities;
 
-public class Caged : BaseEntity
+public class Caged //: BaseEntity
 {
     [JsonProperty("cd_municipio")]
     public string CodigoMunicipio { get; set; } = string.Empty;
