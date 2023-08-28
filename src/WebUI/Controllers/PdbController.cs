@@ -9,19 +9,19 @@ namespace pdb.Controllers;
 [Route("[controller]")]
 public class PdbController : ControllerBase
 {
-    private readonly IGenericService<Caged> _cagedRepository;
+    private readonly IGenericService<Caged> _cagedService;
     private readonly IGenericService<DadosCadastraisCnpj> _dadosCadastraisCnpjService;
 
-    public PdbController(IGenericService<Caged> cagedRepository, IGenericService<DadosCadastraisCnpj> dadosCadastraisCnpjService)
+    public PdbController(IGenericService<Caged> cagedService, IGenericService<DadosCadastraisCnpj> dadosCadastraisCnpjService)
     {
-        _cagedRepository = cagedRepository;
+        _cagedService = cagedService;
         _dadosCadastraisCnpjService = dadosCadastraisCnpjService;
     }
 
     [HttpGet("Caged", Name = "GetCaged")]
     public async Task<IEnumerable<Caged>> GetCaged([FromQuery]int pageNumber, int pageSize)
     {
-        return await _cagedRepository.Get(pageNumber, pageSize);
+        return await _cagedService.Get(pageNumber, pageSize);
     }
 
     [HttpGet("DadosCadastraisCnpj", Name = "GetDadosCadastraisCnpj")]
