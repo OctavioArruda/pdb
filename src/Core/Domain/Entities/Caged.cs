@@ -2,7 +2,7 @@
 
 namespace Domain.Entities;
 
-public class Caged : BaseEntity
+public sealed class Caged : BaseEntity
 {
     [Column("Secao")]
     public string Secao { get; set; } = string.Empty;

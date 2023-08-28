@@ -2,6 +2,7 @@
 
 namespace Domain.Entities;
 
+[Table("cnpj_dados_cadastrais_pj")]
 public sealed class DadosCadastraisCnpj : BaseEntity
 {
     [Column("tipo_de_registro")]
@@ -35,7 +36,7 @@ public sealed class DadosCadastraisCnpj : BaseEntity
     public string MotivoSituacaoCadastral { get; set; } = string.Empty;
 
     [Column("nm_cidade_exterior")]
-    public string NomeCidadeExterior { get; set; } = string.Empty;
+    public string? NomeCidadeExterior { get; set; } = string.Empty;
 
     [Column("cod_pais")]
     public string CodigoPais { get;set; } = string.Empty;
@@ -95,7 +96,7 @@ public sealed class DadosCadastraisCnpj : BaseEntity
     public string QualificacaoResponsavel { get; set; } = string.Empty;
 
     [Column("capital_social_empresa")]
-    public decimal CapitalSocialEmpresa { get; set; }
+    public decimal? CapitalSocialEmpresa { get; set; }
 
     [Column("porte_empresa")]
     public string PorteEmpresa { get; set; } = string.Empty;
@@ -104,10 +105,10 @@ public sealed class DadosCadastraisCnpj : BaseEntity
     public string OpcaoPeloSimples { get; set; } = string.Empty;
 
     [Column("data_opcao_pelo_simples")]
-    public string DataOpcaoPeloSimples { get; set; } = string.Empty;
+    public string? DataOpcaoPeloSimples { get; set; } = string.Empty;
 
     [Column("data_exclusao_simples")]
-    public string DataExclusaoSimples { get; set; } = string.Empty;
+    public string? DataExclusaoSimples { get; set; } = string.Empty;
 
     [Column("opcao_pelo_mei")]
     public string OpcaoPeloMei { get; set; } = string.Empty;
@@ -116,7 +117,7 @@ public sealed class DadosCadastraisCnpj : BaseEntity
     public string SituacaoEspecial { get; set; } = string.Empty;
 
     [Column("data_situacao_especial")]
-    public string DataSituacaoEspecial { get; set; } = string.Empty;
+    public string? DataSituacaoEspecial { get; set; } = string.Empty;
 
     [Column("filler")]
     public string Filler { get; set; } = string.Empty;

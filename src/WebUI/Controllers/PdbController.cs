@@ -1,3 +1,4 @@
+using Domain.Contracts.Interfaces.Repositories;
 using Domain.Contracts.Interfaces.Services;
 using Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
@@ -8,16 +9,24 @@ namespace pdb.Controllers;
 [Route("[controller]")]
 public class PdbController : ControllerBase
 {
-    private readonly ICagedService _cagedService;
+    private readonly IGenericService<Caged> _cagedRepository;
+    private readonly IGenericService<DadosCadastraisCnpj> _dadosCadastraisCnpjService;
 
-    public PdbController(ICagedService cagedService)
+    public PdbController(IGenericService<Caged> cagedRepository, IGenericService<DadosCadastraisCnpj> dadosCadastraisCnpjService)
     {
-        _cagedService = cagedService;
+        _cagedRepository = cagedRepository;
+        _dadosCadastraisCnpjService = dadosCadastraisCnpjService;
     }
 
-    [HttpGet("Caged", Name = "Get")]
-    public async Task<IEnumerable<Caged>> Get([FromQuery]int pageNumber, int pageSize)
+    [HttpGet("Caged", Name = "GetCaged")]
+    public async Task<IEnumerable<Caged>> GetCaged([FromQuery]int pageNumber, int pageSize)
     {
-        return await _cagedService.Get(pageNumber, pageSize);
+        return await _cagedRepository.Get(pageNumber, pageSize);
+    }
+
+    [HttpGet("DadosCadastraisCnpj", Name = "GetDadosCadastraisCnpj")]
+    public async Task<IEnumerable<DadosCadastraisCnpj>> GetDadosCadastraisCnpj([FromQuery] int pageNumber, int pageSize)
+    {
+        return await _dadosCadastraisCnpjService.Get(pageNumber, pageSize);
     }
 }

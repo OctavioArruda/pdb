@@ -20,7 +20,7 @@ public static class RegisterServices
         });
 
         services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
-        services.AddScoped<ICagedService, CagedService>();
+        services.AddScoped(typeof(IGenericService<>), typeof(GenericService<>));
 
         return services;
     }
