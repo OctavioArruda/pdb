@@ -7,9 +7,6 @@ public sealed class Caged : BaseEntity
     [Column("Secao")]
     public string Secao { get; set; } = string.Empty;
 
-    [Column("cd_municipio")]
-    public string CodigoMunicipio { get; set; } = string.Empty;
-
     [Column("municipio")]
     public string Municipio { get; set;  } = string.Empty;
 

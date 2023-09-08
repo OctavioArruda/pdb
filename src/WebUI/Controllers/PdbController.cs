@@ -12,14 +12,17 @@ public class PdbController : ControllerBase
     private readonly IGenericService<Caged> _cagedService;
     private readonly IGenericService<DadosCadastraisCnpj> _dadosCadastraisCnpjService;
     private readonly IGenericService<DadosCnaeSecundarioCnpj> _dadosCnaeSecundarioService;
+    private readonly IGenericService<DadosSocioCnpj> _dadosSociosCnpjService;
 
     public PdbController(IGenericService<Caged> cagedService, 
         IGenericService<DadosCadastraisCnpj> dadosCadastraisCnpjService, 
-        IGenericService<DadosCnaeSecundarioCnpj> dadosCnaeSecundarioService)
+        IGenericService<DadosCnaeSecundarioCnpj> dadosCnaeSecundarioService,
+        IGenericService<DadosSocioCnpj> dadosSociosCnpjService)
     {
         _cagedService = cagedService;
         _dadosCadastraisCnpjService = dadosCadastraisCnpjService;
         _dadosCnaeSecundarioService = dadosCnaeSecundarioService;
+        _dadosSociosCnpjService = dadosSociosCnpjService;
     }
 
     [HttpGet("Caged", Name = "GetCaged")]
@@ -38,5 +41,11 @@ public class PdbController : ControllerBase
     public async Task<IEnumerable<DadosCnaeSecundarioCnpj>> GetDadosCnaeSecundarioCnpj([FromQuery] int pageNumber, int pageSize)
     {
         return await _dadosCnaeSecundarioService.Get(pageNumber, pageSize);
+    }
+
+    [HttpGet("DadosSociosCnpj", Name = "GetDadosSociosCnpj")]
+    public async Task<IEnumerable<DadosSocioCnpj>> GetDadosSociosCnpj([FromQuery] int pageNumber, int pageSize)
+    {
+        return await _dadosSociosCnpjService.Get(pageNumber, pageSize);
     }
 }

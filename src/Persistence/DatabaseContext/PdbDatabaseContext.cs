@@ -17,9 +17,9 @@ public sealed class PdbDatabaseContext : DbContext
     public DbSet<Caged> Caged { get; set; }
     public DbSet<DadosCadastraisCnpj> DadosCnpj { get; set; }
     public DbSet<DadosCnaeSecundarioCnpj> DadosCnaeSecundarioCnpj { get; set; }
+    public DbSet<DadosSocioCnpj> DadosSociosCnpj { get; set; }
     //public DbSet<Cnae> Cnaes { get; set; }
     //public DbSet<CodigoMunicipioSiaf> CodigosMunicipioSiaf { get; set; }
-    //public DbSet<DadosSocioCnpj> DadosSociosCnpj { get; set; }
     //public DbSet<NaturezaJuridica> NaturezasJuridicas { get; set; }
         
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
