@@ -8,6 +8,8 @@
 **/Debug/
 *.sqlite
 *.vsidx
+*.vs
+
 
 # User-specific files
 *.suo

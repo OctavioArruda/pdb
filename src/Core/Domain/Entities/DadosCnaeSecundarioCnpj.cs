@@ -2,6 +2,7 @@
 
 namespace Domain.Entities;
 
+[Table("cnpj_dados_cnae_secundario_pj")]
 public sealed class DadosCnaeSecundarioCnpj : BaseEntity
 {
     [Column("tipo_de_registro")]

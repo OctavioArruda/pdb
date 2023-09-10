@@ -2,13 +2,10 @@
 
 namespace Domain.Entities;
 
-public class Caged : BaseEntity
+public sealed class Caged : BaseEntity
 {
     [Column("Secao")]
     public string Secao { get; set; } = string.Empty;
-
-    [Column("cd_municipio")]
-    public string CodigoMunicipio { get; set; } = string.Empty;
 
     [Column("municipio")]
     public string Municipio { get; set;  } = string.Empty;
@@ -24,4 +21,6 @@ public class Caged : BaseEntity
 
     [Column("fluxo")]
     public long Fluxo { get; set; }
+
+    public long FaixaEmpregadosNumber => Convert.ToInt64(FaixaEmpregados);
 }
