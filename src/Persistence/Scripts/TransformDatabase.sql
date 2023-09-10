@@ -155,12 +155,12 @@ DROP TABLE cnpj_dados_cadastrais_pjOld;
 
 CREATE TABLE TEMP (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
-    tipo_de_registro nvarchar (1073741823),
-    indicador nvarchar (1073741823),
-    tipo_atualizacao nvarchar (1073741823),
-    cnpj nvarchar (1073741823),
-    cnae_secundario nvarchar (1073741823),
-    filler nvarchar (1073741823)
+    tipo_de_registro nvarchar (200),
+    indicador nvarchar (200),
+    tipo_atualizacao nvarchar (200),
+    cnpj nvarchar (20),
+    cnae_secundario nvarchar (200),
+    filler nvarchar (200)
 );
 
 INSERT INTO TEMP (
@@ -187,23 +187,23 @@ ALTER TABLE cnpj_dados_socios RENAME TO cnpj_dados_sociosOld;
 
 CREATE TABLE cnpj_dados_socios (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
-    tipo_de_registro                     NVARCHAR (1073741823),
-    indicador                            NVARCHAR (1073741823),
-    tipo_atualizacao                     NVARCHAR (1073741823),
-    cnpj                                 NVARCHAR (1073741823),
-    identificador_socio                  NVARCHAR (1073741823),
-    nome_socio                           NVARCHAR (1073741823),
-    cnpj_cpf_socio                       NVARCHAR (1073741823),
-    cod_qualificacao_socio               NVARCHAR (1073741823),
-    percentual_capital_socio             NVARCHAR (1073741823),
-    data_entrada_sociedade               NVARCHAR (1073741823),
-    cod_pais                             NVARCHAR (1073741823),
-    nome_pais_socio                      NVARCHAR (1073741823),
-    cpf_representante_legal              NVARCHAR (1073741823),
-    nome_representante                   NVARCHAR (1073741823),
-    cod_qualificacao_representante_legal NVARCHAR (1073741823),
-    fillter                              NVARCHAR (1073741823),
-    fim_registro                         NVARCHAR (1073741823)
+    tipo_de_registro                     NVARCHAR (200),
+    indicador                            NVARCHAR (200),
+    tipo_atualizacao                     NVARCHAR (200),
+    cnpj                                 NVARCHAR (20),
+    identificador_socio                  NVARCHAR (200),
+    nome_socio                           NVARCHAR (200),
+    cnpj_cpf_socio                       NVARCHAR (200),
+    cod_qualificacao_socio               NVARCHAR (200),
+    percentual_capital_socio             NVARCHAR (200),
+    data_entrada_sociedade               NVARCHAR (200),
+    cod_pais                             NVARCHAR (200),
+    nome_pais_socio                      NVARCHAR (200),
+    cpf_representante_legal              NVARCHAR (200),
+    nome_representante                   NVARCHAR (200),
+    cod_qualificacao_representante_legal NVARCHAR (200),
+    fillter                              NVARCHAR (200),
+    fim_registro                         NVARCHAR (200)
 );
 
 INSERT INTO cnpj_dados_socios
@@ -266,3 +266,54 @@ alter table caged rename to cagedOld;
 alter table cnpj_dados_cadastrais_pj rename to cnpj_dados_cadastrais_pjOld;
 alter table cnpj_dados_cnae_secundario_pj rename to cnpj_dados_cnae_secundario_pjOld;
 alter table cnpj_dados_socios rename to cnpj_dados_sociosOld;
+
+--  improving tab_cnae
+ALTER TABLE tab_cnae RENAME TO tab_cnae_OLD;
+
+CREATE TABLE tab_cnae (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    cod_secao   NVARCHAR (150),
+    nm_secao    NVARCHAR (150),
+    cod_divisao NVARCHAR (150),
+    nm_divisao  NVARCHAR (150),
+    cod_grupo   NVARCHAR (150),
+    nm_grupo    NVARCHAR (150),
+    cod_classe  NVARCHAR (150),
+    nm_classe   NVARCHAR (150),
+    cod_cnae    NVARCHAR (150),
+    nm_cnae     NVARCHAR (150)
+);
+
+CREATE INDEX idx_pk_tab_cnae ON tab_cnae (id);
+
+INSERT INTO tab_cnae
+(
+    cod_secao,
+    nm_secao,
+    cod_divisao,
+    nm_divisao,
+    cod_grupo,
+    nm_grupo,
+    cod_classe,
+    nm_classe,
+    cod_cnae,
+    nm_cnae
+)
+SELECT
+    cod_secao,
+    nm_secao,
+    cod_divisao,
+    nm_divisao,
+    cod_grupo,
+    nm_grupo,
+    cod_classe,
+    nm_classe,
+    cod_cnae,
+    nm_cnae
+FROM tab_cnae_OLD;
+
+DROP TABLE tab_cnae_OLD;
+
+CREATE INDEX idx_cod_secao_tab_cnae ON tab_cnae (cod_secao);
+CREATE INDEX idx_secao_caged ON caged (Secao);
+

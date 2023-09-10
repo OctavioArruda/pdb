@@ -2,6 +2,7 @@
 
 namespace Domain.Entities;
 
+[Table("tab_cnae")]
 public sealed class Cnae : BaseEntity
 {
     [Column("cod_secao")]

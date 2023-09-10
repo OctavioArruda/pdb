@@ -21,4 +21,6 @@ public sealed class Caged : BaseEntity
 
     [Column("fluxo")]
     public long Fluxo { get; set; }
+
+    public long FaixaEmpregadosNumber => Convert.ToInt64(FaixaEmpregados);
 }
